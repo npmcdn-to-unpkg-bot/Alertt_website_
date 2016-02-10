@@ -1,10 +1,10 @@
 $(function() {
-    var BV = new $.BigVideo();
+    var BV = new $.BigVideo({container: $('#page')});
     BV.init();
     BV.show('video/alertt.mp4',{ambient:true});
 
     $('#next-btn').on('click', function(e) {
-        $('#big-video-wrap').addClass('animated slideOutUp');
+        $('#page').addClass('animated slideOutUp');
         $('#next-btn').css('display','none');
     });
 
