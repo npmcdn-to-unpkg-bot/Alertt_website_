@@ -1,0 +1,43 @@
+#wrapper {
+  position: absolute;
+  width: 500%;
+  height: 100%;
+  z-index: 0; }
+
+#next-btn {
+  position: absolute;
+  right: 50%;
+  top: 90%;
+  padding: 20px;
+  background: #000;
+  border-radius: 40px;
+  opacity: 0.4;
+  cursor: pointer; }
+  #next-btn:hover {
+    opacity: 0.6; }
+
+.next-icon {
+  display: block;
+  border-top: solid 5px #fff;
+  border-right: solid 5px #fff;
+  width: 30px;
+  height: 30px;
+  position: relative;
+  top: -5px;
+  -webkit-transform: rotate(135deg);
+  -moz-transform: rotate(135deg);
+  -ms-transform: rotate(135deg);
+  -o-transform: rotate(135deg);
+  transform: rotate(135deg);
+  color: #fff;
+  text-decoration: none; }
+
+#big-video-wrap {
+  overflow: hidden;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0; }
+
+/*# sourceMappingURL=style.css.map */
